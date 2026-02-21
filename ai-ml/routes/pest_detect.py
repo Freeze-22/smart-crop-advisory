@@ -1,9 +1,13 @@
 from flask import Blueprint, request, jsonify
 from PIL import Image
 import numpy as np
-import tflite_runtime.interpreter as tflite
 import json
 import io
+import tensorflow as tf
+
+
+tflite = tf.lite
+
 
 pest_bp = Blueprint('pest', __name__)
 
