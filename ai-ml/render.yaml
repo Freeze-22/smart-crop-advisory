@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: smart-crop-ai
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
