@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+
+# Dataset - too large for GitHub
+ai-ml/PlantVillage/
+
+# Trained models - too large for GitHub
+ai-ml/models/pest_model.h5
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Test files
+ai-ml/test_advisory.py
+
+# OS files
+.DS_Store
+Thumbs.db
