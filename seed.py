@@ -11,7 +11,7 @@ with app.app_context():
 
     # Create admin user
     admin = User(username="admin")
-    admin.set_password("admin123")
+    admin.set_password("Hero@12345#")
     db.session.add(admin)
 
     # Seed advisory data
